@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "net.mavros_thanatos.tensura_predation.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "tensura_predation.refmap.json",
+  "mixins": [
+    "MixinPredatorMistProjectile",
+    "MixinStarvedSkill",
+    "MixinUsurperSkill"
+  ],
+  "client": [
+  ],
+  "minVersion": "0.8"
+}

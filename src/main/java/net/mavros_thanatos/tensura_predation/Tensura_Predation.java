@@ -1,4 +1,4 @@
-package net.mavros_thanatos.tensura_magic_growth;
+package net.mavros_thanatos.tensura_predation;
 
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
@@ -13,15 +13,15 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(Tensura_Magic_Growth.MOD_ID)
-public class Tensura_Magic_Growth
+@Mod(Tensura_Predation.MOD_ID)
+public class Tensura_Predation
 {
 
-    public static final String MOD_ID = "tensura_magic_growth";
+    public static final String MOD_ID = "tensura_predation";
 
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public Tensura_Magic_Growth(FMLJavaModLoadingContext context)
+    public Tensura_Predation(FMLJavaModLoadingContext context)
     {
         IEventBus modEventBus = context.getModEventBus();
 

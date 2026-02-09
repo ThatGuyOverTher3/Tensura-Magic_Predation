@@ -18,11 +18,11 @@ license="MIT License"
 # A list of mods - how many allowed here is determined by the individual mod loader
 [[mods]] #mandatory
 # The modid of the mod
-modId="tensura_magic_growth" #mandatory
+modId="tensura_predation" #mandatory
 # The version number of the mod
 version="${mod_version}" #mandatory
 # A display name for the mod
-displayName="Tensura:Magic_Growth" #mandatory
+displayName="Tensura:Predation" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://docs.minecraftforge.net/en/latest/misc/updatechecker/
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
@@ -44,7 +44,7 @@ authors="mavros_thanatos" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''${mod_description}'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.tensura_magic_growth]] #optional
+[[dependencies.tensura_predation]] #optional
 # the modid of the dependency
 modId="forge" #mandatory
 # Does this dependency have to exist - if not, ordering below must be specified
@@ -58,7 +58,7 @@ ordering="NONE"
 # Side this dependency is applied on - BOTH, CLIENT, or SERVER
 side="BOTH"
 # Here's another dependency
-[[dependencies.tensura_magic_growth]]
+[[dependencies.tensura_predation]]
 modId="minecraft"
 mandatory=true
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
